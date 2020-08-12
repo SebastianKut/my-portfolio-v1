@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: rgb(39, 45, 52);
 }
 
 #preloader:before {
@@ -74,9 +74,9 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
-  border-top-color: #fff;
-  border-bottom-color: #fff;
+  border: 6px solid rgb(10, 197, 194);
+  border-top-color: rgb(39, 45, 52);
+  border-bottom-color: rgb(39, 45, 52);
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -356,7 +356,10 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(26, 31, 37);
+
 }
 
 .section-title h2 {
@@ -785,7 +788,7 @@ section {
   border-color: #fff;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
-
+/*
 .services .iconbox-blue i {
   color: #47aeff;
 }
@@ -797,7 +800,7 @@ section {
 .services .iconbox-blue:hover .icon path {
   fill: #47aeff;
 }
-
+/*
 .services .iconbox-orange i {
   color: #ffa76e;
 }
@@ -856,6 +859,15 @@ section {
 
 .services .iconbox-teal:hover .icon path {
   fill: #11dbcf;
+}
+*/
+
+.services .iconbox-green:hover .icon i {
+  color: #fff;
+}
+
+.services .iconbox-green:hover .icon path {
+  fill: rgb(10, 197, 194);
 }
 
 /*--------------------------------------------------------------
@@ -1222,4 +1234,8 @@ section {
 .img-custom {
   border: 1px solid #afbac4; 
   border-radius: 50%;
+}
+
+.highlights-custom {
+  color: rgb(10, 197, 194);
 }
