@@ -8,6 +8,7 @@ green - rgb(10, 197, 194);
 header - #afbac4; 
 p element #737f8a;
 insetad of black rgb(52, 52, 52);
+instead of white background rgb(185, 185, 185);
 
 ### Fonts
 buttons, menu items - Anaheim
