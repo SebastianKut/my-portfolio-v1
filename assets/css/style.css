@@ -1289,3 +1289,12 @@ section {
   background-color: rgb(10, 170, 170);
   color: rgb(52, 52, 52);
 }
+
+#email-copied-confirm {
+  display: none;
+  color: rgb(10, 197, 194);
+}
+
+#email-text {
+  color: #737f8a;
+}
