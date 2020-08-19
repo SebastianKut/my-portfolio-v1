@@ -207,10 +207,12 @@ document.getElementById('get-in-touch').addEventListener('click', function(e) {
 
 //copy email to clipboard
 
-document.getElementById('email-text').addEventListener('click', (e) =>{
-e.preventDefault();
+document.getElementById('email-text').addEventListener('click', copyToClipboard);
+document.getElementById('copy-to-clipboard').addEventListener('click', copyToClipboard);
 
-navigator.clipboard.writeText(e.target.textContent).then(function() {
+function copyToClipboard(e) {
+e.preventDefault();
+navigator.clipboard.writeText(document.getElementById('email-text').textContent).then(function() {
     // Promise resolved successfully.
     console.log("Copied to clipboard successfully!");
     let confirmationMessage = document.getElementById('email-copied-confirm');
@@ -221,6 +223,6 @@ navigator.clipboard.writeText(e.target.textContent).then(function() {
     console.error("Unable to write to clipboard. :-(");
   });
 
-});
+};
 
 
