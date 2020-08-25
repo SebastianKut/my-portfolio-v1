@@ -1307,3 +1307,8 @@ section {
   background-color: rgb(10, 170, 170);
   color: rgb(52, 52, 52);
 }
+
+#rc-anchor-container {
+  background: transparent !important;
+  color: #afbac4 !important;
+}
