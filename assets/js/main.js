@@ -223,6 +223,7 @@ navigator.clipboard.writeText(document.getElementById('email-text').textContent)
     console.error("Unable to write to clipboard. :-(");
   });
 
+
 };
 
 
