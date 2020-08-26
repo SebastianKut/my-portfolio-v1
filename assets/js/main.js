@@ -183,7 +183,15 @@
     items: 1
   });
 
+
+
 })(jQuery);
+
+document.addEventListener('DOMContentLoaded', function() {
+
+  if (window.innerWidth < 992) document.querySelector('#profile-img').src = 'assets/img/profile-03.jpg';
+  if (window.innerWidth >= 992) document.querySelector('#profile-img').src = 'assets/img/profile-02.jpg';
+
 
 //add smooth scrolling to get in touch button 
 document.getElementById('get-in-touch').addEventListener('click', function(e) {
@@ -226,4 +234,10 @@ navigator.clipboard.writeText(document.getElementById('email-text').textContent)
 
 };
 
+// window.addEventListener("resize", changeProfilePicture);
 
+// function changeProfilePicture() {
+//   if (window.innerWidth < 992) document.querySelector('#profile-img').src = 'assets/img/profile-03.jpg';
+// }
+
+});
