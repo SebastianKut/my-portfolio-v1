@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
 
     //load different profile pic depending on devices' screen size
-    if (window.innerWidth < 992) document.querySelector('#profile-img').src = 'assets/img/profile-03.jpg';
-    if (window.innerWidth >= 992) document.querySelector('#profile-img').src = 'assets/img/profile-02.jpg';
+    /*if (window.innerWidth < 992) */document.querySelector('#profile-img').src = 'assets/img/profile-03.jpg';
+    //if (window.innerWidth >= 992) document.querySelector('#profile-img').src = 'assets/img/profile-02.jpg';
   
   
   //add smooth scrolling to get in touch button 
